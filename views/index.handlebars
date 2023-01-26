@@ -1,0 +1,27 @@
+<div class="jumbotron">
+  <h1 class="display-4">Bem Vindo ao Simple Blog</h1>
+  <p class="lead">Este é um blog que lhe permite obter informações de forma simples e rápida.</p>
+  <hr class="my-4">
+  {{#if user}}
+  {{else}}
+  <p>Venha fazer parte dessa comunidade incrível.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/usuarios/registro" role="button">Crie uma Conta</a>
+  </p>
+  {{/if}}
+</div>
+<h2 class="mb-4">Postagens recentes:</h2>
+{{#each postagens}}
+    <div class="card mb-2">
+        <div class="card-body">
+            <h3>{{titulo}}</h3>
+            <p>{{descricao}}</p>
+            <a href="/postagem/{{slug}}"><button class="btn btn-success">Leia mais</button></a>
+            <hr>
+            <small>Categoria: {{categoria.nome}}</small><br>
+            <small>Data de Publicação: {{data}}</small>
+        </div>
+    </div>
+{{else}}
+    <h5>Nenhuma postagem</h5>
+{{/each}}
