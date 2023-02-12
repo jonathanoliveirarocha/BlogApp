@@ -6,7 +6,6 @@ Curso disponível em: https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxx
 
 Após ter instalado o Node.js no seguinte endereço: https://nodejs.org/en/download/, e inserido sua URI do MongoDB na pasta "config" no arquivo "db.js", basta dar o seguinte comando.
 
-Depois disso
 ```bash
 node app.js
 
