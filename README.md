@@ -4,7 +4,7 @@ Projeto prático do curso de Node.js, utilizando express e mongoDB.
 
 Curso disponível em: https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B
 
-Após ter instalado o Node.js no seguinte endereço: https://nodejs.org/en/download/, e inserido sua URI do MongoDB na pasta "config" no arquivo "db.js", basta dar o seguinte comando.
+Após ter instalado o Node.js no seguinte endereço: https://nodejs.org/en/download/, e inserido sua URI do MongoDB na pasta "config" no arquivo "db.js", basta dar o seguinte comando:
 
 ```bash
 node app.js
