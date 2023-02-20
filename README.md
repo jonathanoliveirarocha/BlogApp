@@ -1,10 +1,10 @@
-# blogapp
-Projeto prático do curso de Node.js, utilizando express e mongoDB.
+# Blog App
+Practical project of the Node.js course, using express and mongoDB.
 
 
-Curso disponível em: <a href="https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B">Curso de Node.js</a>
+Course available at: <a href="https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B">Curso de Node.js</a>
 
-Após ter instalado o Node.js no seguinte endereço: <a href="https://nodejs.org/en/download/">Node.js</a>, e inserido sua URI do MongoDB na pasta "config" no arquivo "db.js", basta dar o seguinte comando:
+After installing Node.js at the following address: <a href="https://nodejs.org/en/download/">Node.js</a>, and entering your MongoDB URI in the "config" folder in "db.js" file, just enter the following command:
 
 ```bash
 node app.js
